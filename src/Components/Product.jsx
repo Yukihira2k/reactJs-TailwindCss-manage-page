@@ -3,7 +3,7 @@
 function Product(){
     return(
         <>
-        <div className="flex items-start justify-center mt-14 max-lg:items-center max-lg:flex-col ">
+        <div className="flex items-start justify-center mt-20 max-lg:items-center max-lg:flex-col ">
 
             <div className="flex-col w-2/5 max-lg:w-auto max-lg:m-5">
             <h1 className="text-6xl text-slate-600 w-5/6 mb-10 max-lg:w-full max-lg:text-center max-lg:text-5xl">What's different about Manage?</h1>

@@ -50,7 +50,7 @@ function handleMenu(){
                   <li key={index}href={link.link} className="text-black hover:text-slate-400 p-10">{link.title}</li>
                    ))}
                 </ul>
-                <div className="mr-2 flex block absolute right-10 top-3 md:hidden">
+                <div className="mr-2 flex block absolute right-10 top-3 md:hidden max-sm:right-2">
                     <button onClick={handleMenu} className="text-black m-10">
                         {open? <CloseIcon/> : <MenuIcon/>}
                     </button>
